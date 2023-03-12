@@ -1,0 +1,101 @@
+.header-container {
+  display: flex;
+  align-items: center;
+
+  justify-content: space-around;
+  height: 18vh;
+  gap: 9em;
+  .box-1 {
+    .fygo-img {
+      width: 8em;
+      height: 3em;
+    }
+  }
+  .box-2 {
+    display: flex;
+
+    align-items: center;
+    justify-content: space-around;
+    width: 49em;
+
+    ul {
+      display: flex;
+      list-style-type: none;
+      gap: 3em;
+    }
+
+    .sub-box-1 {
+      display: flex;
+      gap: 0.5em;
+      .round {
+        width: 1.8em;
+      }
+      .head-text {
+        p {
+          font-size: 0.7rem;
+        }
+      }
+    }
+  }
+}
+.body {
+  display: flex;
+  align-items: center;
+  gap: 3em;
+  height: 100vh;
+
+  .box-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    right: 3.5em;
+    gap: 12em;
+
+    .grill-1 {
+      width: 12em;
+    }
+    .box-1-text {
+      transform: rotate(-90deg);
+      font-size: 4rem;
+    }
+  }
+  .box-2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 6.9em;
+    bottom: 3em;
+    gap: 3em;
+    .box-2-text {
+      h1 {
+        font-size: 3rem;
+      }
+    }
+
+    .btn {
+      display: flex;
+      gap: 1em;
+      .bt {
+        background: #00bfff;
+        color: #fff;
+      }
+      button {
+        cursor: pointer;
+        padding: 0.8em;
+        font-size: large;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.14);
+      }
+    }
+  }
+  .box-3 {
+    position: absolute;
+    left: 36em;
+    top: 10.6em;
+    .bike {
+      width: 44em;
+    }
+  }
+}
